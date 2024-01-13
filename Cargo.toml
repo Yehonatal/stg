@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["yonatan afewerk <yonatanafewerk@gmail.com>"]
 edition = "2021"
 build = "build.rs"
+description = "A desktop app that generator study time."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -12,3 +13,7 @@ slint = "1.0"
 
 [build-dependencies]
 slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "STG"
+identifier = "io.github.yehonatal.stg"
